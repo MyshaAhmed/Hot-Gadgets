@@ -13,6 +13,13 @@
 
 /* carousel start=================================> */
 
+#carousel-container {
+    background-image: url(./images/bg-1.png);
+    background-repeat: no-repeat;
+   background-position: left 50%;
+   
+    
+}
 .card {
     border: none;
     box-shadow: 1px 1px 10px #80808080;
@@ -24,3 +31,21 @@
     padding-bottom: 1.5rem;
 }
 /* carousel end=================================> */
+
+/* ====================category start===================== */
+.underline-block {
+    width: 100px;
+    height: 8px;
+    border-radius: 10px; 
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+}
+
+
+#perfume,#shoe{
+    border-radius: 15px 5px 30px 5px;
+}
+
+#bag{
+    border-radius: 5px 15px 5px 30px;
+}
+/* ====================category end===================== */
