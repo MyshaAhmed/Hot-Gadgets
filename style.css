@@ -14,10 +14,30 @@
 /* carousel start=================================> */
 
 #carousel-container {
-    background-image: url(./images/bg-1.png);
+    /* background-image: url(./images/bg-1.png);
     background-repeat: no-repeat;
-   background-position: left 50%;
-   
+    position: relative;
+    background-position:  left 50%; */
+    position: relative;
+    z-index: 50;
+}
+
+.carousel-section{
+    position: relative;
+    z-index: 50;
+}
+.bg-1{
+    position: absolute;
+    z-index: 20;
+    bottom: 0%;
+    left: 45%;
+}
+
+.bg-2{
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+    left: -110px;
     
 }
 .card {
